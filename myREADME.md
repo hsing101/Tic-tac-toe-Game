@@ -2,10 +2,6 @@
 
 An unbeatable Tic-Tac-Toe game powered by the **Minimax algorithm**. Play against an AI that always makes the optimal move.
 
-<p align="center">
-  <img src="preview/minimax_img.png" alt="Tic Tac Toe Minimax Preview">
-</p>
-
 ## Features
 - Implements Minimax algorithm for perfect play
 - Game tree exploration with over **549,946 possible states**
@@ -21,13 +17,6 @@ An unbeatable Tic-Tac-Toe game powered by the **Minimax algorithm**. Play agains
 1. Build a game tree of all possible moves
 2. Assign scores to terminal states (win = +1, loss = –1, draw = 0)
 3. Backtrack scores through recursion to choose the optimal move
-
-<p align="center">
-  <img src="preview/tic-tac-toe-minimax-game-tree.png" alt="Tic Tac Toe Minimax Game Tree">
-</p>
-
-## Try It Out
-👉 [Play here](https://cledersonbc.github.io/tic-tac-toe-minimax/)
 
 ## References
 - *Algorithms in a Nutshell* — George Heineman, Gary Pollice, Stanley Selkow (O’Reilly, 2009)
