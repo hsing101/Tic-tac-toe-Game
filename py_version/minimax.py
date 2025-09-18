@@ -5,15 +5,6 @@ import platform
 import time
 from os import system
 
-"""
-An implementation of Minimax AI Algorithm in Tic Tac Toe,
-using Python.
-This software is available under GPL license.
-Author: Clederson Cruz
-Year: 2017
-License: GNU GENERAL PUBLIC LICENSE (GPL)
-"""
-
 HUMAN = -1
 COMP = +1
 board = [
@@ -41,7 +32,7 @@ def evaluate(state):
 
 def wins(state, player):
     """
-    This function tests if a specific player wins. Possibilities:
+    tests if a specific player wins. Possibilities:
     * Three rows    [X X X] or [O O O]
     * Three cols    [X X X] or [O O O]
     * Two diagonals [X X X] or [O O O]
@@ -67,7 +58,7 @@ def wins(state, player):
 
 def game_over(state):
     """
-    This function test if the human or computer wins
+    checks if the human or computer wins
     :param state: the state of the current board
     :return: True if the human or computer wins
     """
@@ -92,7 +83,7 @@ def empty_cells(state):
 
 def valid_move(x, y):
     """
-    A move is valid if the chosen cell is empty
+    move is valid if the chosen cell is empty
     :param x: X coordinate
     :param y: Y coordinate
     :return: True if the board[x][y] is empty
@@ -105,7 +96,7 @@ def valid_move(x, y):
 
 def set_move(x, y, player):
     """
-    Set the move on board, if the coordinates are valid
+    sets the move on board, if the coordinates are valid
     :param x: X coordinate
     :param y: Y coordinate
     :param player: the current player
@@ -186,8 +177,8 @@ def render(state, c_choice, h_choice):
 
 def ai_turn(c_choice, h_choice):
     """
-    It calls the minimax function if the depth < 9,
-    else it choices a random coordinate.
+    calls the minimax function if the depth < 9,
+    else chooses a random coordinate.
     :param c_choice: computer's choice X or O
     :param h_choice: human's choice X or O
     :return:
@@ -213,7 +204,7 @@ def ai_turn(c_choice, h_choice):
 
 def human_turn(c_choice, h_choice):
     """
-    The Human plays choosing a valid move.
+    Human chooses valid move.
     :param c_choice: computer's choice X or O
     :param h_choice: human's choice X or O
     :return:
@@ -251,9 +242,6 @@ def human_turn(c_choice, h_choice):
 
 
 def main():
-    """
-    Main function that calls all functions
-    """
     clean()
     h_choice = ''  # X or O
     c_choice = ''  # X or O
