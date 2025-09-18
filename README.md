@@ -1,4 +1,4 @@
-# Tic-Tac-Toe with Minimax AI
+# Tic-Tac-Toe Game
 
 An unbeatable Tic-Tac-Toe game powered by the **Minimax algorithm**. Play against an AI that always makes the optimal move.
 
