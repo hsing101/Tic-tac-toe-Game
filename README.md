@@ -20,7 +20,7 @@ An unbeatable Tic-Tac-Toe game built using **Minimax algorithm**. Play against a
 	<img src="preview/tic-tac-toe-minimax-game-tree.png"></img>
 </p>
 
-Take a look that the depth is equal the valid moves on the board. The complete code is available in **py_version/**.
+Take a look that the depth is equal the valid moves on the board. The complete code is available in **python/**.
 
 Simplified game tree:
 
