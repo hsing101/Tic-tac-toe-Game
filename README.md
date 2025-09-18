@@ -16,11 +16,6 @@ An unbeatable Tic-Tac-Toe game built using **Minimax algorithm**. Play against a
 1. Build a game tree of all possible moves
 2. Assign scores to terminal states (win = +1, loss = –1, draw = 0)
 3. Backtrack scores through recursion to choose the optimal move
-<p align="center">
-	<img src="preview/tic-tac-toe-minimax-game-tree.png"></img>
-</p>
-
-Take a look that the depth is equal the valid moves on the board. The complete code is available in **python/**.
 
 Simplified game tree:
 
